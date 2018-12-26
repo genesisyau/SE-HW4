@@ -25,6 +25,7 @@ public class Grade {
 	}
 	
 	public void Main(){
-		org.junit.runner.JUnitCore.main("Tests.letterGradeTest4a");		
+		// org.junit.runner.JUnitCore.main("Tests.letterGradeTest4a");
+		org.junit.runner.JUnitCore.main("Tests.letterGradeTest4b");
 	}
 }

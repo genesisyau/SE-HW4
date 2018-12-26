@@ -21,37 +21,37 @@ public class letterGradeTest4a {
 	}
 
 	@Test
-	void testXScore1() {
+	public void testXScore1() {
 		assertEquals(grade.letterGrade(-3), 'X');
 	}
 	
 	@Test
-	void testXScore2() {
+	public void testXScore2() {
 		assertEquals(grade.letterGrade(200), 'X');
 	}
 	
 	@Test
-	void testFScore() {
+	public void testFScore() {
 		assertEquals(grade.letterGrade(30), 'F');
 	}
 	
 	@Test
-	void testDScore() {
+	public void testDScore() {
 		assertEquals(grade.letterGrade(64), 'D');
 	}
 	
 	@Test
-	void testCScore() {
+	public void testCScore() {
 		assertEquals(grade.letterGrade(76), 'C');
 	}
 	
 	@Test
-	void testBScore() {
+	public void testBScore() {
 		assertEquals(grade.letterGrade(82), 'B');
 	}
 	
 	@Test
-	void testAScore() {
+	public void testAScore() {
 		assertEquals(grade.letterGrade(96), 'A');
 	}
 		
