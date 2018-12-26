@@ -10,7 +10,7 @@ import org.junit.jupiter.api.Test;
 import hw4.Grade;
 
 class letterGradeTest4b {
-	Grade grade;
+	Grade grade; //grade
 	
 	@BeforeEach
 	void setUp() throws Exception {
