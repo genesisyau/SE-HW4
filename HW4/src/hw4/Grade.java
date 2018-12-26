@@ -1,4 +1,8 @@
 package hw4;
+import org.junit.runner.JUnitCore;
+import org.junit.runner.Result;
+
+import Tests.letterGradeTest4a;
 
 public class Grade {
 	public Grade() {}
@@ -18,5 +22,9 @@ public class Grade {
 		else
 			grade = 'F';
 		return grade;
+	}
+	
+	public void Main(){
+		org.junit.runner.JUnitCore.main("Tests.letterGradeTest4a");		
 	}
 }
